@@ -1,0 +1,11 @@
+transformers
+Rouge
+nltk
+gensim
+bert_score
+tensorflow
+bleurt
+unbabel-comet
+tensorflow
+pytorch
+numpy

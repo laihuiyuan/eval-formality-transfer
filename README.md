@@ -1,23 +1,16 @@
 # Human Judgement as a Compass to Navigate Automatic Metrics for Formality Transfer
 
-This respository mainly contains two parts: [Evaluation Method](#start) and [Papers](#paper) published over the last three years in the ACL Anthology.
+This respository mainly contains two parts: [Automatic Evaluation](#start) and [TST Papers](#paper) published over the last three years in the ACL Anthology.
 
 ## <span id="start">Quick Start</span>
 ### Style Strength
 
-- Train Classifier/Regressor
-```
-python classifier/bert_train.py \
-       -model bart \
-       -dataset xformal \
-       -task cls \
-       -lr 1e-5
-```
-- Evaluation
-```
-python eval_style.py \
-       -dataset xformal
-       -task cls
+```bash
+# Train Classifier/Regressor
+python train_style.py -dataset xformal -task cls
+
+# Evaluation
+python eval_style.py -dataset xformal -task cls -model bart
 ```
 
 ### Content Preservation
@@ -26,17 +19,13 @@ python eval_content.py source.txt output.txt referece.txt
 ```
 
 ### Fluency
-- Train Language Model
-```
-python train_lm.py \
-       -dataset xformal \
-       -style 0
-```
-- Evaluation
-```
-python eval_fluency.py \
-       -model bart \
-       
+```bash
+# Train Language Model
+python train_lm.py -dataset xformal -style 0
+python train_lm.py -dataset xformal -style 1
+
+# Evaluation
+python eval_fluency.py -model bart 
 ```
 
 ## <span id="paper">Text Style Transfer</span>
