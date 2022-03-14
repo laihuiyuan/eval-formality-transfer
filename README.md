@@ -1,6 +1,45 @@
 # Human Judgement as a Compass to Navigate Automatic Metrics for Formality Transfer
 
-## Paper
+This respository mainly contains two parts: [Evaluation Method](#start) and [Papers](#paper) published over the last three years in the ACL Anthology.
+
+## <span id="start">Quick Start</span>
+### Style Strength
+
+- Train Classifier/Regressor
+```
+python classifier/bert_train.py \
+       -model bart \
+       -dataset xformal \
+       -task cls \
+       -lr 1e-5
+```
+- Evaluation
+```
+python eval_style.py \
+       -dataset xformal
+       -task cls
+```
+
+### Content Preservation
+```
+python eval_content.py source.txt output.txt referece.txt
+```
+
+### Fluency
+- Train Language Model
+```
+python train_lm.py \
+       -dataset xformal \
+       -style 0
+```
+- Evaluation
+```
+python eval_fluency.py \
+       -model bart \
+       
+```
+
+## <span id="paper">Text Style Transfer</span>
 - [Thank you BART! Rewarding Pre-Trained Models Improves Formality Style Transfer](https://aclanthology.org/2021.acl-short.62/). ACL 2021.
 - [Unsupervised Aspect-Level Sentiment Controllable Style Transfer](https://anthology.aclweb.org/2020.aacl-main.33/). ACL 2021.
 - [Enhancing Content Preservation in Text Style Transfer Using Reverse Attention and Conditional Layer Normalization](https://aclanthology.org/2021.acl-long.8/). ACL 2021.
