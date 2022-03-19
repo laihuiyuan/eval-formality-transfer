@@ -23,7 +23,7 @@ path = 'checkpoints/GoogleNews-vectors-negative300.bin.gz'
 w2v = gensim.models.KeyedVectors.load_word2vec_format(path, binary=True)
 BLEURT = score.BleurtScorer('checkpoints/bleurt-large-512')
 BERT = bert_score.BERTScorer(lang='en', rescale_with_baseline=True)
-COMET = download_model("checkpoints/wmt-large-da-estimator-1719")
+COMET = download_model("wmt-large-da-estimator-1719")
 
 data = []
 
