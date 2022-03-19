@@ -53,7 +53,7 @@ python eval_fluency.py -model bart
 - [Olá, Bonjour, Salve! XFORMAL: A Benchmark for Multilingual Formality Style Transfer](https://aclanthology.org/2021.naacl-main.256/). NAACL 2021. [[code](https://github.com/Elbria/xformal-FoST)]
 - [Multi-Style Transfer with Discriminative Feedback on Disjoint Corpus](https://aclanthology.org/2021.naacl-main.275/). NAACL 2021.
 - [On Learning Text Style Transfer with Direct Rewards](https://aclanthology.org/2021.naacl-main.337/). NAACL 2021. [[code](https://github.com/yixinL7/Direct-Style-Transfer)]
-- [Civil Rephrases Of Toxic Texts With Self-Supervised Transformers]. EACL 2021. [[code](https://github.com/LeoLaugier/conditional-auto-encoder-text-to-text-transfer-transformer)]
+- [Civil Rephrases Of Toxic Texts With Self-Supervised Transformers](https://aclanthology.org/2021.eacl-main.124/). EACL 2021. [[code](https://github.com/LeoLaugier/conditional-auto-encoder-text-to-text-transfer-transformer)]
 
 ### 2020
 - [Expertise Style Transfer: A New Task Towards Better Communication between Experts and Laymen](https://aclanthology.org/2020.acl-main.100/). ACL 2020. [[code](https://srhthu.github.io/expertise-style-transfer/)]
