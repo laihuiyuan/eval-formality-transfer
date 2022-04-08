@@ -1,0 +1,80 @@
+1	it all depends on when ur ready.	It all depends on when you are ready.	It all depends on when you are ready.	100	100	100	100	100	100
+1	if you're asking, then you should break-up w/ and open yourself to other options.	If you are asking, then you should break-up w/ and open yourself to other options.	If you are asking, then you should break up with him/her and then open yourself up to other options.	100	1	50.6	100	64.4	96.9
+1	why do gays want to get married?	Why do gays want to get married?	Why do homosexuals want to get married?	100	27.9	88.6	100	72.5	90.9
+1	THEY BOTH DONT RESPECT YOUR FEELING.	They both do not respect your feeling.	Both of them do not respect your feelings.	100	85.4	100	100	84.1	69.7
+1	No seriously, think about howmany cocky girls are out there.	No seriously, think about how many cocky girls are out there.	No seriously, think about how many arrogant women are out there.	100	40.3	100	100	64.7	85.1
+1	She is too afraid to ask him out.	She is too afraid to ask him out.	She is too shy to ask him out.	100	40.5	100	100	81.7	100
+1	in that case tkake some defense classes.	In that case, take some defense classes.	In that case, you should take some defense classes.	100	60.4	60.4	100	61.7	100
+1	you would be genuinly suprised in the type of people that go to them.	You would be genuinly suprised in the type of people that go to them.	You would actually be surprised at the kind of people that go to them.	100	64	35.6	100	69.3	17.3
+1	Hey, I'm in NYC I'll help you out if your around!	Hey, I am in nyc, I will help you out if you are around.	I am in New York currently, I'd love to show you around if you'd like.	100	15.5	16.8	100	59.6	84.2
+1	10 years gap is just nice.	A ten years gap is very nice.	A ten-year gap is just nice.	100	100	100	85.6	37.3	32.8
+2	give it a chance because if you break up with them it would be harder to be friends	Give it a chance because if you break up with them, it would be harder to be friends.	Give it a chance, if you break up with them it will be harder to remain friends.	100	90.5	100	100	100	100
+2	The Best of Luck to ya!	The best of luck to you.	Best of luck!	73.4	79.2	84.3	100	87.7	78.4
+2	hang around untill the bar closes -- or visit a prison	Hang around untill the bar closes or visit a prison.	Remain until the tavern closes, or visit a prison.	36.9	40.5	79.2	88.8	21.5	21.4
+2	Because believe it or not, women hate cocky men.	Because believe it or not, women hate cocky men.	Because, believe it or not, women hate cocky men.	100	27.9	97.4	100	82.4	100
+2	( even if he  is rich, dont sell ur self.	Even if he is rich, do not sell your self.	Do not sell yourself, even if he is rich.	100	75.3	82.6	100	88.1	92.6
+2	hello: i am looking to visit your country.	Hello, I am looking to visit your country.	I would like to visit your country.	97.3	100	100	100	86.3	95.7
+2	that way you can still go by your last name!	That way you can still go by your last name.	That way you can still go by your last name!	94.4	63.5	82.8	100	67.1	79.6
+2	I do not know what to do because she knows how much I care about him.	I do not know what to do because she knows how much I care about him.	I do not know what to do because she knows how much I care about him.	78.9	76.5	84	100	57.5	80.9
+2	figure out what style of arrangements you would like and flowers.	Figure out what style of arrangements you would like and flowers.	Decide which style of arrangements and flowers that you would like.	78	76.2	37.2	83.4	66	74.3
+2	Trust him, don't bring it up again.	Trust him, and do not bring it up again.	Trust him and do not bring it up again.	71.6	84.3	96.8	81	100	88.8
+4	Remember being friends with someone online is ok but there are limits.	Remember, being friends with someone online is fine, but there are limits.	Remember, being friends with someone online is okay, however, there are limits.	100	85.9	100	100	59.4	80.9
+4	and he had his nose pierced.	He had his nose pierced.	He had his nose pierced.	83.8	100	100	42.8	87.2	76
+4	Giving it up just for him to stick around is like selling your soul to the devil.	Giving it up just for him to stick around is like selling your soul to the devil.	Giving it up just for him to stick around is like selling your soul to the devil.	100	23.3	100	100	50.2	88.1
+4	A picture the shape of a heart with you and her when you both first dated....thats special	A picture of a heart with you and her when you both first dated. It is special.	A picture of the shape of a heart with you and her when you both first dated, that is special.	67.4	84.9	17.6	87.5	87.7	88.3
+4	or that she just wants to see other people?	Does she simply want to see other people?	Or that she just desires to go out with other people?	90.1	92.3	100	67.2	68.3	72.4
+4	there was his stop so he got off the train.	There was his stop, so he got off the train.	There was his stop so he left the train.	98.6	78.8	62.2	91.2	90.9	89
+4	r u talking about ur avatar?	Are you talking about your avatar?	Are you referring to your avatar?	100	90.5	100	87.7	88.7	88.6
+4	we always seem to push the ones taht we love away.	We always seem to push the ones we love away.	We always seems to push away the ones that we love.	100	81.5	89.8	81.6	75.6	76.9
+4	If a guy cares he calls.	If a man cares, he calls.	If a man cares about you, then he will call.	100	75.2	100	82.6	86.8	86.8
+4	If you two are serious then asking her that question shouldn't bother her.	If you two are serious, then asking her that question should not bother her.	If you two are serious, asking her that question shouldn't bother her.	100	100	100	89.4	92.2	93.4
+5	but now we do all these things together and i dont know what to do..	However, we do all these things together and I do not know what to do.	Now we do so many things together and I do not know what to do.	100	100	100	89	100	91.8
+5	but i dont htink that by not having sex with him he will become unfaithful or leave you.	However, I do not htink that by not having sex with him, he will become unfaithful or leave you.	I do not think that not having sex with him will make him unfaithful toward you.	100	46.9	14.7	95.8	20.4	43.9
+5	Ok, so I had this problem too.	Okay, so I had this problem as well.	Ok, I have had this problem too.	100	88.4	91.6	100	91.8	100
+5	Uh- wher've U been meeting these Filipinas?	Okay, wher have you been meeting these Filipinas?	Where have you been meeting these Filipinas?	53.8	41.6	50.6	95.5	4.1	16.2
+5	That way, you aren't exactly telling them what you specifically don't like about them.	That way, you are not exactly telling them what you specifically do not like about them.	That way, you are not exactly telling them what you specifically do not like about them.	100	100	100	98	64.6	98.7
+5	You people have no right to get married!	You people have no right to get married.	I prefer you not marry.	96.5	90.2	100	99.3	51.5	89.7
+5	So you have ONE baby out of wedlock.	So you have one child out of wedlock.	You have one child.  Are you married?	100	100	100	95.4	74.8	95.1
+5	First of all, why did u guys break up?	First of all, why did you two break up?	Firstly, why was the relationship not terminated?	100	86.5	100	100	100	100
+5	i think im still totally in love w/ him...	I believe I am still in love with him.	I believe I persist in feeling all-consuming romantic love for him.	82.4	100	100	76.4	100	100
+5	i was cheated on for 3 of the years.	I have been cheated on for three of the years.	I was cheated on for three of those years.	83.1	100	92.9	37.5	85.8	90.8
+1	Because some women send subtle messages to men rather than being clear.	because some women send subtle messages to men rather than being clear.	Because some women send men tiny messages with out saying it clearly.	100	100	100	100	38.9	83.1
+1	He probably has many things to worry about right now other than you.	he probably has so many things to worry about right now other than you.	besides don't you think he has enough to worry about?	69.2	100	100	100	26	84.4
+1	Women are coomplicated.	women are coomplicated.	i can onli say...women r complicated...	100	56.5	100	100	92.5	67.1
+1	They will think you are leering if you look at them creepily.	they'll think you're leering if you look at them creepily.	if you look creepy and you look..they'll all think you're leering.	100	74.5	100	100	87	82.3
+1	I do not know, but I have knowledge of another webpage that I visit..	i dont know but i have knowledge of another webpage that i visit..	I dont know.But i know of another website that i go to..	100	73.2	74.3	100	40.6	63.6
+1	King has a song about this, it is called 'Only Your Mother Loves You.'	king has a song about this, it's called 'only your mom loves you'.	King had a song about this	100	100	100	87	73.6	84.8
+1	If he does not go out with you, do not worry as there are plenty of other options.	if he doesn't go out with you, don't worry there are plenty of other options.	if he doesn't then there are too many fish in the sea.	100	100	100	100	68.3	77.6
+1	Find the one who loves you also.	find the one who loves you too.	Just find one that loves you too.	100	100	100	100	79.9	95
+1	Stay very far away from this man.	stay very far away from this guy.	Stay 100 miles away from this guy.	100	100	100	100	68.6	83.1
+1	Why would some men do that?	why would some guys do that?	But some guys would do that... WHY?	93.7	100	100	100	66.3	78.9
+2	A few good women are left, you simply have to look in the right places.	a few good women are left and you just have to look in the right places.	there are lots of good women left you just have to look in the right place.	31.8	80.4	39.6	25.5	51.6	38.5
+2	It's the only time in your life, you're able to live out true love!	it's the only time in your life you're able to live out true love!	The One time in your life to really live out the true fantasy of love!	86.7	84.3	37.5	100	82.4	100
+2	If she is no longer interested in you.	if she's no longer interested in you.	If she is not into you anymore...	100	87.6	100	100	82.3	100
+2	You also should move on if they have.	you also should move on if they have.	If they have moved on then you should too.	87	85.8	62.6	100	27.6	73.2
+2	She will inform you if it is not acceptable.	she'll tell you if it's not ok.	She will tell you if it's not OK.	87.6	81	79.8	100	92.2	92.1
+2	I know three men I can do that with.	i know 3 guys i can do that with.	I know 3 guys that I can probably get away with doing something like that.	94.9	76.8	94.3	100	100	100
+2	If he insists then it indicates sex is his only goal.	if he insists then sex is his only goal.	if he insists, it means he only after sex.	97.3	78.6	71.3	62.6	88.1	74.6
+2	You can save money with respect to flowers.	you can save money with respect to flowers.	a big savings area is flowers.	100	72.1	86.4	100	29.9	62.9
+2	If you are not happy then you need to fix it or leave.	if you're not happy then you need to fix it or leave.	If you aren't happy fix it or get out.	100	89.7	100	100	64.4	75.5
+2	You can perform a citizen's arrest.	you can perform a citizen's arrest.	you can do a civilian arrest answ3r3r	92.8	93.4	99.7	100	43.5	67.8
+4	Hopefully, you married your husband because you love him.	hopefully you married your husband because you love him.	you married your hubby hopefully because you love him .	100	81.9	100	95.4	76	76.6
+4	That depends, are you an attractive individual with an athletic form?	depends, are you an attractive person with an athletic form?	THAT DEPENDS...ARE YOU A HOTTIE W/A BODY?	100	25.1	21.6	86.2	85.5	87.3
+4	Getting married and having children can be postponed, but your studies cannot be.	getting married and having kids can be postponed but your studies can't be.	Getting married and getting child can wait but studies can't.	100	70.9	100	91.9	86.6	87.2
+4	I have never attended it.	i never went.	i have never been to it	58.7	100	100	74.3	84.7	84.8
+4	Do you want to be in a relationship with the same man?	do you want to be in a relationship with the same guy?	The same guy you wanna be in a relationship with?	100	85.6	95.8	89.5	85.2	83.3
+4	Be the best version of yourself, and if he is impressed he will talk to you.	be the best version of yourself and if he's impressed he'll talk to you.	then be your best self, if he's impressed or likes you he'll talk back	99.7	100	100	93.4	92.7	91.9
+4	Are you or are you not attracted to him?	are you or are you not attracted to him?	you like him or you don't like him?	100	73.8	86.1	95.3	69.3	81.3
+4	It appears that he likes you, and should should show him how you feel.	it looks like he likes you and should show him how you feel.	it defenetely looks like he has feelings for u.do u show how u feel;;u should!!	67.8	100	33.6	71.8	78	67.7
+4	No, because I am not yet married.	no, because i'm not yet married.	no, because i'm not married yet	98.6	40.2	48.1	92.9	92.2	91.8
+4	Make sure it is your decision.	make sure it's your decision.	Whatever  you decide, make it completly YOURS!	99.7	100	100	89.8	72.4	73.9
+5	It never harms anyone to flirt a little!	It never hurts anyone to flirt a little!	it never hurts to be flirty!	95.8	100	100	100	79.1	100
+5	You should stick with what you feel inside.	you should stick with what you feel inside.	But stick with wats inside of u.	100	87.3	96.9	100	100	100
+5	It is the woman's decision.	it's the woman's decision.	Depends on the woman, it's better shaved=-)	100	71.6	91.1	100	80.6	95.5
+5	Almost without exception (not constantly) those are men similar in age to yourself, more or less.	almost without exception (not constantly) those are guys similar in age to yourself more or less.	Most often (not always) that will be guys around your age, give ot take.	100	73.4	96.4	78.9	83	94.6
+5	If you have to ask, then that is a negative.	if you have to ask then that's a negative.	No, not if you have to ask...	100	74.9	83.8	100	77.3	79.2
+5	Even though I am getting divorced, I am still stuck with this.	even though i'm getting divorced i'm still stuck with this.	(and now even in devorce im stuck with it !	100	100	95.5	100	98.9	99.4
+5	You will know in time, and I recommend seeing what happens for six months.	you'll know in time and i recommend seeing what happens for 6 months.	time wiil tell give it six months and see what happens.	100	80.8	34.5	100	80.5	84.5
+5	Not all gentlemen break up with their woman.	not all guys break up with their girl.	Not all guys get bored and move on.	93.3	87	77	100	100	100
+5	Not all men, however some men do.	not all men, but some men do.	not all guys, but some guys do	100	84.5	91.5	100	100	100
+5	Girls who are heavier can still be attractive.	girls who are heavier can still be sexy.	However that does not mean that big girls can't be cute.	81.9	72.5	95.8	77.7	99.2	99.9

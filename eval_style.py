@@ -20,9 +20,11 @@ def main():
     parser = argparse.ArgumentParser('Evaluating the style strength of sentences')
     parser.add_argument('-model', default=0, type=str, help='the evaluated model name')
     parser.add_argument('-seed', default=42, type=int, help='pseudo random number seed')
-    parser.add_argument('-batch_size', default=128, type=int, help='max sents in a batch')
+    parser.add_argument('-batch_size', default=32, type=int, help='max sents in a batch')
     parser.add_argument('-dataset', default='xformal', type=str, help='the dataset name')
-    parser.add_argument('-task', default='cls', type=str, help='classifier or regressior')
+    parser.add_argument('-task',
+                        default='single_label_classification',
+                        type=str, help='or regression')
 
     opt = parser.parse_args()
     torch.manual_seed(opt.seed)
@@ -32,25 +34,29 @@ def main():
     else:
         num_label = 2
 
-    config = BertConfig.from_pretrained('bert-base-cased',
-                                        problem_type=opt.prob,
-                                        num_labels=num_label)
-    tokenizer = BertTokenizer.from_pretrained('bert-base-cased')
+    config = BertConfig.from_pretrained(
+        'bert-base-cased',
+        problem_type=opt.prob,
+        num_labels=num_label)
+    tokenizer = BertTokenizer.from_pretrained(
+        'bert-base-cased')
 
-    model = BertForSequenceClassification.from_pretrained("bert-base-cased",
-                                                          config=config)
-    model_dir = 'checkpoints/bert_{}_{}.chkpt'.format(opt.dataset, opt.prob[:2])
+    model = BertForSequenceClassification.from_pretrained(
+        "bert-base-cased",
+        config=config)
+
+    model_dir = 'checkpoints/bert_{}_{}.chkpt'.format(opt.prob[:3], opt.dataset)
     model.load_state_dict(torch.load(model_dir))
     model.to(device).eval()
 
-    f0 = open('data/outputs/{}.txt'.format(opt.model), 'r')
-    f1 = open('data/outputs/{}.bert.{}.{}.txt'.format(
-        opt.model, opt.dataset, opt.prob[:2]), 'w')
+    f0 = open('data/outputs/{}.human.txt'.format(opt.model), 'r')
+    f1 = open('data/outputs/{}.{}.{}.txt'.format(
+        opt.model, opt.prob[:3], opt.dataset), 'w')
     with torch.no_grad():
         for i, line in enumerate(f0.readlines()):
-            sentence = line.strip()
+            out = line.strip().split('\t')[2]
             inp = tokenizer.batch_encode_plus(
-                [sentence],
+                [out],
                 padding=True,
                 return_tensors='pt')
             src = inp['input_ids'].to(device)

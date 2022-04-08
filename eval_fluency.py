@@ -57,20 +57,20 @@ def main():
 
     model_0 = GPT2LMHeadModel.from_pretrained('gpt2')
     model_0.resize_token_embeddings(len(tokenizer))
-    model_0.load_state_dict(torch.load('checkpoints/gpt2_xformal_1.chkpt'))
+    model_0.load_state_dict(torch.load('checkpoints/gpt2_for.chkpt'))
     model_0.to(device).eval()
     
     model_1 = GPT2LMHeadModel.from_pretrained('gpt2')
     model_1.resize_token_embeddings(len(tokenizer))
-    model_1.load_state_dict(torch.load('checkpoints/gpt2_xformal_0.chkpt'))
+    model_1.load_state_dict(torch.load('checkpoints/gpt2_inf.chkpt'))
     model_1.to(device).eval()
     
     loss_fn =nn.CrossEntropyLoss(ignore_index=tokenizer.eos_token_id)
 
     seqs_0, seqs_1 = [], []
-    with open('data/outputs/{}.txt'.format(opt.model), 'r') as f:
+    with open('data/outputs/{}.human.txt'.format(opt.model), 'r') as f:
         for i, line in enumerate(f.readlines()):
-            line = line.strip()
+            line = line.strip().split('\t')[2]
             if i < 40:
                 seqs_0.append(line.strip())
             else:
@@ -85,4 +85,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
