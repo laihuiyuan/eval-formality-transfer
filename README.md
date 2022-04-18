@@ -1,7 +1,7 @@
-# Human Judgement as a Compass to Navigate Automatic Metrics for Formality Transfer
+# Human Judgement as a Compass to Navigate Automatic Metrics for Formality Transfer (HumEval 2022)
 
 This respository mainly contains two parts: [Automatic Evaluation](#start) and [TST Papers](#paper) published 
-over the last three years in the ACL Anthology. All system outputs used in this paper are in the `data/outputs/` directory.
+over the last three years in the ACL Anthology. All data used in this paper are in the `data/outputs/` directory.
 
 ## <span id="start">Automatic Evaluation</span>
 ### Style Strength
@@ -21,13 +21,15 @@ python eval_content.py source.txt output.txt referece.txt output.txt
 
 ### Fluency
 ```bash
-# Train Language Model
+# Train Language Model gpt-2
 python train_lm.py -dataset xformal -style 0
 python train_lm.py -dataset xformal -style 1
 
 # Evaluation
 python eval_fluency.py -model bart 
 ```
+
+**Note:** All the models, including style regressor, classifiers and gpt-2 for fluency, can be found [here](https://drive.google.com/drive/folders/1Z9NNgPoiu6CIKMS9V10as_8lJLtThgbZ?usp=sharing).
 
 ## <span id="paper">Text Style Transfer</span>
 

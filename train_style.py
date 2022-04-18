@@ -142,15 +142,18 @@ def main():
         num_label = 1
     else:
         num_label = 2
-    config = BertConfig.from_pretrained('bert-base-cased',
-                                        problem_type=opt.prob,
-                                        num_labels=num_label)
+    config = BertConfig.from_pretrained(
+        'bert-base-cased',
+        problem_type=opt.prob,
+        num_labels=num_label)
 
-    tokenizer = BertTokenizer.from_pretrained('bert-base-cased')
+    tokenizer = BertTokenizer.from_pretrained(
+        'bert-base-cased')
     pad_id = tokenizer.pad_token_id
 
-    model = BertForSequenceClassification.from_pretrained("bert-base-cased",
-                                                          config=config)
+    model = BertForSequenceClassification.from_pretrained(
+        "bert-base-cased",
+        config=config)
     model.to(device).train()
 
     print('[Info] Built a model with {} parameters'.format(
@@ -212,7 +215,8 @@ def main():
                 valid_acc, valid_loss = evaluate(model, valid_loader, epoch, tokenizer)
                 if eval_loss > valid_loss:
                     eval_loss = valid_loss
-                    save_path = 'checkpoints/bert_{}_{}.chkpt'.format(opt.dataset, opt.prob[:2])
+                    save_path = 'checkpoints/bert_{}_{}.chkpt'.format(
+                        opt.prob[:3], opt.dataset)
                     torch.save(model.state_dict(), save_path)
                     print('[Info] The checkpoint file has been updated.')
                     tab = 0
@@ -220,7 +224,6 @@ def main():
                     tab += 1
                     if tab == 5:
                         exit()
-
 
 if __name__ == '__main__':
     main()

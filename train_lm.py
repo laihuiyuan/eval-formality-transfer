@@ -189,8 +189,8 @@ def main():
                         and step % len(train_loader) == 0)):
                 valid_loss = evaluate(model, loss_fn, valid_loader, tokenizer, epoch, step)
                 if eval_loss >= valid_loss:
-                    save_path = 'checkpoints/gpt2_{}_{}.chkpt'.format(
-                        opt.dataset, opt.style)
+                    save_path = 'checkpoints/gpt2_{}.chkpt'.format(
+                        'inf' if opt.style==0 else 'for')
                     torch.save(model.state_dict(), save_path)
                     print('[Info] The checkpoint file has been updated.')
                     eval_loss = valid_loss
