@@ -36,7 +36,7 @@ def main():
 
     config = BertConfig.from_pretrained(
         'bert-base-cased',
-        problem_type=opt.prob,
+        problem_type=opt.task,
         num_labels=num_label)
     tokenizer = BertTokenizer.from_pretrained(
         'bert-base-cased')

@@ -4,7 +4,7 @@ import numpy as np
 from scipy.stats import pearsonr
 from kendalltau import compute_kenall
 
-systems = ['BART', 'HIGH', 'IBT', 'LUO', 'NIU', 'RAO', 'YI', 'ZHOU', 'REF']
+# systems = ['BART', 'HIGH', 'IBT', 'LUO', 'NIU', 'RAO', 'YI', 'ZHOU', 'REF']
 
 system_5 = ['HIGH', 'NIU','BART']
 system_4 = ['HIGH', 'NIU','BART','IBT']
@@ -26,11 +26,11 @@ for systems in [system_0, system_1, system_2, system_3, system_4, system_5]:
     for s in systems:
         temp_0 = []
         temp_1 = []
-        with open('data/outputs/{}.content.src.txt'.format(s), 'r') as f:
+        with open('data/outputs/{}.content.ref.txt'.format(s), 'r') as f:
             for i, line in enumerate(f.readlines()):
                 line = line.strip().split('\t')
                 temp_0.append((float(line[4]) + float(line[7])) / 2)
-                temp_1.append(float(line[-10]))
+                temp_1.append(float(line[-11]))
         human.append(temp_0)
         auto.append(temp_1)
 
@@ -51,11 +51,11 @@ for systems in [system_0, system_1, system_2, system_3, system_4, system_5]:
     human, auto = [], []
     for s in systems:
         temp_0, temp_1 = [], []
-        with open('data/outputs/{}.content.src.txt'.format(s), 'r') as f:
+        with open('data/outputs/{}.content.ref.txt'.format(s), 'r') as f:
             for i, line in enumerate(f.readlines()):
                 line = line.strip().split('\t')
                 temp_0.append((float(line[4]) + float(line[7])) / 2)
-                temp_1.append(float(line[-10]))
+                temp_1.append(float(line[-11]))
         human.append(np.mean(temp_0))
         auto.append(np.mean(temp_1))
     print('Pearson (System):', pearsonr(human, auto))

@@ -124,15 +124,17 @@ def evaluate(model, valid_loader, epoch, tokenizer):
 
 
 def main():
-    parser = argparse.ArgumentParser('The style classifier that is based on bert')
+    parser = argparse.ArgumentParser('The style classifier/regressor based on BERT')
     parser.add_argument('-lr', default=1e-5, type=float, help='the initial learning rate')
     parser.add_argument('-seed', default=42, type=int, help='pseudo random generator seed')
     parser.add_argument('-log_step', default=100, type=int, help='print log every x steps')
     parser.add_argument('-dataset', default='xformal', type=str, help='the name of dataset')
     parser.add_argument('-eval_step', default=1000, type=int, help='early stopping training')
     parser.add_argument('-batch_size', default=32, type=int, help='maximum sents in a batch')
-    parser.add_argument('-task', default='cls', type=str, help='classification or regression')
     parser.add_argument('-epoch', default=80, type=int, help='force stop at specified epoch')
+    parser.add_argument('-task',
+                        default='single_label_classification',
+                        type=str, help='or regression')
 
     opt = parser.parse_args()
     torch.manual_seed(opt.seed)
@@ -144,7 +146,7 @@ def main():
         num_label = 2
     config = BertConfig.from_pretrained(
         'bert-base-cased',
-        problem_type=opt.prob,
+        problem_type=opt.task,
         num_labels=num_label)
 
     tokenizer = BertTokenizer.from_pretrained(

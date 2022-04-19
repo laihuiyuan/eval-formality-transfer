@@ -96,6 +96,6 @@ with open(sys.argv[1], 'r') as fin:
 
         data.append(sample)
 
-with open(sys.argv[4], 'w') as f:
+with open(sys.argv[2], 'w') as f:
     for line in data:
         f.write('\t'.join([str(i) for i in line]) + '\n')

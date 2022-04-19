@@ -39,11 +39,9 @@ def cal_ppl(model, opt, seqs, f, loss_fn, tokenizer):
 
 
 def main():
-    parser = argparse.ArgumentParser('Fine-tuning GPT-2 for text style transfer')
-    parser.add_argument('-order', default='BART', type=str, help='the model name')
+    parser = argparse.ArgumentParser('Calculating GPT-2 based perplexity of sentence')
     parser.add_argument('-model', default=0, type=str, help='the evaluated model name')
     parser.add_argument('-batch_size', default=32, type=int, help='the size in a batch')
-    parser.add_argument('-dataset', default='xformal', type=str, help='the dataset name')
     parser.add_argument('-seed', default=42, type=int, help='pseudo random generator seed')
 
     opt = parser.parse_args()
@@ -77,8 +75,7 @@ def main():
                 seqs_1.append(line.strip())
     print('[Info] {} instances in total.'.format(len(seqs_0)))
     print('[Info] {} instances in total.'.format(len(seqs_1)))
-    f = open('data/outputs/{}.ppl.txt'.format(
-        opt.model, opt.dataset), 'w')
+    f = open('data/outputs/{}.ppl.txt'.format(opt.model), 'w')
     cal_ppl(model_0, opt, seqs_0, f, loss_fn, tokenizer)
     cal_ppl(model_1, opt, seqs_1, f, loss_fn, tokenizer)
 
