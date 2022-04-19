@@ -1,4 +1,4 @@
-# Human Judgement as a Compass to Navigate Automatic Metrics for Formality Transfer (HumEval 2022)
+# [Human Judgement as a Compass to Navigate Automatic Metrics for Formality Transfer (HumEval 2022)](https://arxiv.org/abs/2204.07549)
 
 This respository mainly contains two parts: [Automatic Evaluation](#start) and [TST Papers](#paper) published 
 over the last three years in the ACL Anthology. All data used in this paper are in the `data/outputs/` directory.
