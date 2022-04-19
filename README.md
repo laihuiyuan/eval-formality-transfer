@@ -4,29 +4,33 @@ This respository mainly contains two parts: [Automatic Evaluation](#start) and [
 over the last three years in the ACL Anthology. All data used in this paper are in the `data/outputs/` directory.
 
 ## <span id="start">Automatic Evaluation</span>
-### Style Strength
 
+### Dataset
+- [PT16](https://github.com/Elbria/xformal-FoST-meta/tree/master/best-practices/Formality/PT16_for_huggingface)
+- [GYAFC](https://github.com/raosudha89/GYAFC-corpus): informal text (0) <-> formal text (1)
+
+### Style Strength
 ```bash
 # Train Classifier/Regressor
-python train_style.py -dataset xformal -task cls
+python train_style.py -dataset xformal -task single_label_classification/regression
 
 # Evaluation
-python eval_style.py -dataset xformal -task cls -model bart
+python eval_style.py -dataset xformal -model BART -task single_label_classification/regression
 ```
 
 ### Content Preservation
-```
-python eval_content.py source.txt output.txt referece.txt output.txt
+```bash
+python eval_content.py data/output/BART.human.txt data/output/BART.auto.txt
 ```
 
 ### Fluency
 ```bash
-# Train Language Model gpt-2
+# Train GPT2 based Language Model
 python train_lm.py -dataset xformal -style 0
 python train_lm.py -dataset xformal -style 1
 
 # Evaluation
-python eval_fluency.py -model bart 
+python eval_fluency.py -model BART 
 ```
 
 **Note:** All the models, including style regressor, classifiers and gpt-2 for fluency, can be found [here](https://drive.google.com/drive/folders/1Z9NNgPoiu6CIKMS9V10as_8lJLtThgbZ?usp=sharing).
