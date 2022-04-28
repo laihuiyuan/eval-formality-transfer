@@ -1,6 +1,6 @@
 # [Human Judgement as a Compass to Navigate Automatic Metrics for Formality Transfer (HumEval 2022)](https://arxiv.org/abs/2204.07549)
 
-This respository mainly contains two parts: [Automatic Evaluation](#start) and [TST Papers](#paper) published 
+This respository mainly contains two parts: [Automatic Evaluation](#start) and [Text Style Transfer Papers](#paper) published 
 over the last three years in the ACL Anthology. All data used in this paper are in the `data/outputs/` directory.
 
 ## <span id="start">Automatic Evaluation</span>
@@ -35,7 +35,7 @@ python eval_fluency.py -model BART
 
 **Note:** All the models, including style regressor, classifiers and gpt-2 for fluency, can be found [here](https://drive.google.com/drive/folders/1Z9NNgPoiu6CIKMS9V10as_8lJLtThgbZ?usp=sharing).
 
-## <span id="paper">Text Style Transfer</span>
+## <span id="paper">Style Transfer Papers</span>
 
 ### 2021
 - [Thank you BART! Rewarding Pre-Trained Models Improves Formality Style Transfer](https://aclanthology.org/2021.acl-short.62/). ACL 2021. [[code](https://github.com/laihuiyuan/pre-trained-formality-transfer)]
