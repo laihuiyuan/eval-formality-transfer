@@ -87,3 +87,22 @@ python eval_fluency.py -model BART
 - [Semi-supervised Text Style Transfer: Cross Projection in Latent Space](https://aclanthology.org/D19-1499/). EMNLP 2019. 
 - [Evaluating Style Transfer for Text](https://aclanthology.org/N19-1049/). NAACL 2019. [[code](https://github.com/passeul/style-transfer-model-evaluation)]
 - [Reinforcement Learning Based Text Style Transfer without Parallel Training Corpus](https://aclanthology.org/N19-1320/). NAACL 2019.
+
+
+## Citation
+```
+@inproceedings{lai-etal-2022-human,
+    title = "Human Judgement as a Compass to Navigate Automatic Metrics for Formality Transfer",
+    author = "Lai, Huiyuan  and
+      Mao, Jiali  and
+      Toral, Antonio  and
+      Nissim, Malvina",
+    booktitle = "Proceedings of the 2nd Workshop on Human Evaluation of NLP Systems (HumEval)",
+    month = may,
+    year = "2022",
+    address = "Dublin, Ireland",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.humeval-1.9",
+    pages = "102--115"
+}
+```
